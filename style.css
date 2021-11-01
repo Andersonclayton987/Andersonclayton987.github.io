@@ -634,4 +634,49 @@ footer span a:hover{
     .home .home-content{
         font-size: 35px;
     }
+    .about .about-content .column{
+        width: 100%;
+        margin-right: 15px;
+    }
+    .about .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-content .rigth{
+        flex: 100%;
+    }
+    .about .about-content .left img{
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+        height: 250px;
+        width: 250px;
+        
+    }
+}
+
+@media(max-width: 430px){
+    .about .about-content .column{
+        width: 100%;
+        justify-content: center;
+        margin-right: 15px;
+    }
+    .about .about-content .left img{
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+        height: 200px;
+        width: 200px;
+        
+    }
+    .about .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-content .rigth{
+        flex: 100%;
+    }
+    
 }
