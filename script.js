@@ -48,13 +48,8 @@ $(document).ready(function(){
             0:{
                 items:1,
                 nav:false
-<<<<<<< HEAD
+
             },
-            
-            
-=======
-            },                     
->>>>>>> 3052357fbdfe55055332077f32f8bb1fdb6cbea0
         }
     })
 })
